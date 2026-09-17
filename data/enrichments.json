@@ -1,0 +1,54 @@
+[
+  {
+    "id": "enr_6063cd63-015c-4aa0-97f3-30a438905f70",
+    "feedbackId": "fb_sample_001",
+    "sentiment": "negative",
+    "severity": "medium",
+    "productArea": "reporting",
+    "feedbackType": "Feature Request",
+    "theme": "Scheduled automated exports",
+    "featureRequest": true,
+    "churnSignal": false,
+    "model": "gemini-3.8-flash",
+    "processedAt": "2026-09-17T16:08:59.679Z"
+  },
+  {
+    "id": "enr_117a5b96-a74f-4f5f-a5a2-77ddaffc0f39",
+    "feedbackId": "fb_95f199b4-19b0-400a-94b0-41467528b87f",
+    "sentiment": "negative",
+    "severity": "critical",
+    "productArea": "onboarding",
+    "feedbackType": "Feature Request",
+    "theme": "Bulk CSV provisioning",
+    "featureRequest": true,
+    "churnSignal": true,
+    "model": "gemini-3.8-flash",
+    "processedAt": "2026-09-17T16:10:03.946Z"
+  },
+  {
+    "id": "enr_03f20588-d10e-4043-a97c-15fac24cb542",
+    "feedbackId": "fb_sample_003",
+    "sentiment": "positive",
+    "severity": "low",
+    "productArea": "ai_insights",
+    "feedbackType": "Praise",
+    "theme": "AI summary efficiency",
+    "featureRequest": false,
+    "churnSignal": false,
+    "model": "gemini-3.8-flash",
+    "processedAt": "2026-09-17T16:10:18.473Z"
+  },
+  {
+    "id": "enr_446988d6-f5e1-4673-9c88-f888ac788668",
+    "feedbackId": "fb_sample_002",
+    "sentiment": "negative",
+    "severity": "critical",
+    "productArea": "permissions",
+    "feedbackType": "Feature Request",
+    "theme": "Project role scoping",
+    "featureRequest": true,
+    "churnSignal": true,
+    "model": "gemini-3.8-flash",
+    "processedAt": "2026-09-17T16:10:31.046Z"
+  }
+]

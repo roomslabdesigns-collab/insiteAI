@@ -1,0 +1,6 @@
+{
+  "name": "InsightAI",
+  "description": "AI Product Feedback Intelligence platform to transform large volumes of customer feedback into actionable product insights.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

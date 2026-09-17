@@ -1,0 +1,62 @@
+[
+  {
+    "id": "fb_sample_001",
+    "content": "We rebuild the same board-level report by hand every month because there's no scheduled automated export.",
+    "source": "support_tickets",
+    "date": "2026-09-15T14:30:00.000Z",
+    "customerId": "cust_ent_101",
+    "customerSegment": "enterprise",
+    "plan": "Enterprise Annual",
+    "revenue": 180000,
+    "productArea": "reporting",
+    "sentiment": "negative",
+    "severity": "high",
+    "churnStatus": "active",
+    "createdAt": "2026-09-15T14:32:10.000Z"
+  },
+  {
+    "id": "fb_sample_002",
+    "content": "Our enterprise security review stalled because project-level role scoping is not available yet.",
+    "source": "support_tickets",
+    "date": "2026-09-16T09:15:00.000Z",
+    "customerId": "cust_ent_102",
+    "customerSegment": "enterprise",
+    "plan": "Enterprise Custom",
+    "revenue": 310000,
+    "productArea": "permissions",
+    "sentiment": "negative",
+    "severity": "critical",
+    "churnStatus": "at_risk",
+    "createdAt": "2026-09-16T09:16:45.000Z"
+  },
+  {
+    "id": "fb_sample_003",
+    "content": "The new workspace AI summary digests save our product team at least four hours each sprint.",
+    "source": "nps_feedback",
+    "date": "2026-09-16T17:45:00.000Z",
+    "customerId": "cust_smb_204",
+    "customerSegment": "smb",
+    "plan": "Team Pro",
+    "revenue": 24000,
+    "productArea": "ai_insights",
+    "sentiment": "positive",
+    "severity": "low",
+    "churnStatus": "active",
+    "createdAt": "2026-09-16T17:46:00.000Z"
+  },
+  {
+    "id": "fb_95f199b4-19b0-400a-94b0-41467528b87f",
+    "content": "Inviting 200 members one by one took our operations team three weeks. Bulk CSV user provisioning is urgently required.",
+    "source": "nps_feedback",
+    "date": "2026-09-17T08:30:00.000Z",
+    "customerId": "cust_mid_305",
+    "customerSegment": "mid_market",
+    "plan": "Growth Tier",
+    "revenue": 74000,
+    "productArea": "onboarding",
+    "sentiment": "negative",
+    "severity": "high",
+    "churnStatus": "at_risk",
+    "createdAt": "2026-09-17T16:01:10.780Z"
+  }
+]

@@ -1,0 +1,166 @@
+[
+  {
+    "id": "ins_permissions_mu5qzoh7_q7x6",
+    "title": "Project role scoping in permissions",
+    "description": "1 feedback signal(s) from enterprise representing $310,000 contract ARR highlight churn risk around project role scoping. Dominant sentiment is negative with 1 high/critical severity items and 1 churn risk indicators.",
+    "productArea": "permissions",
+    "insightType": "Churn Risk",
+    "supportingFeedbackIds": [
+      "fb_sample_002"
+    ],
+    "supportingMetrics": {
+      "feedbackCount": 1,
+      "negativeFeedbackCount": 1,
+      "highSeverityCount": 1,
+      "churnSignalCount": 1,
+      "revenueRepresented": 310000,
+      "accountsCount": 1,
+      "affectedSegments": [
+        "enterprise"
+      ],
+      "dominantSentiment": "negative"
+    },
+    "priorityScore": 83,
+    "priorityLevel": "Critical",
+    "priorityFactors": {
+      "frequencyScore": 8,
+      "severityScore": 25,
+      "segmentScore": 20,
+      "churnScore": 15,
+      "revenueScore": 15,
+      "rawMetrics": {
+        "feedbackCount": 1,
+        "highestSeverity": "critical",
+        "affectedSegments": [
+          "enterprise"
+        ],
+        "churnSignalCount": 1,
+        "totalRevenue": 310000
+      }
+    },
+    "createdAt": "2026-09-17T16:32:25.771Z"
+  },
+  {
+    "id": "ins_onboarding_mu5qzuwh_g075",
+    "title": "Bulk CSV provisioning in onboarding",
+    "description": "1 feedback signal(s) from mid_market representing $74,000 contract ARR highlight churn risk around bulk csv provisioning. Dominant sentiment is negative with 1 high/critical severity items and 1 churn risk indicators.",
+    "productArea": "onboarding",
+    "insightType": "Churn Risk",
+    "supportingFeedbackIds": [
+      "fb_95f199b4-19b0-400a-94b0-41467528b87f"
+    ],
+    "supportingMetrics": {
+      "feedbackCount": 1,
+      "negativeFeedbackCount": 1,
+      "highSeverityCount": 1,
+      "churnSignalCount": 1,
+      "revenueRepresented": 74000,
+      "accountsCount": 1,
+      "affectedSegments": [
+        "mid_market"
+      ],
+      "dominantSentiment": "negative"
+    },
+    "priorityScore": 70,
+    "priorityLevel": "High",
+    "priorityFactors": {
+      "frequencyScore": 8,
+      "severityScore": 25,
+      "segmentScore": 14,
+      "churnScore": 15,
+      "revenueScore": 8,
+      "rawMetrics": {
+        "feedbackCount": 1,
+        "highestSeverity": "critical",
+        "affectedSegments": [
+          "mid_market"
+        ],
+        "churnSignalCount": 1,
+        "totalRevenue": 74000
+      }
+    },
+    "createdAt": "2026-09-17T16:32:34.097Z"
+  },
+  {
+    "id": "ins_reporting_mu5qzglw_8eml",
+    "title": "Scheduled automated exports in reporting",
+    "description": "1 feedback signal(s) from enterprise representing $180,000 contract ARR highlight feature opportunity around scheduled automated exports. Dominant sentiment is negative with 0 high/critical severity items and 0 churn risk indicators.",
+    "productArea": "reporting",
+    "insightType": "Feature Opportunity",
+    "supportingFeedbackIds": [
+      "fb_sample_001"
+    ],
+    "supportingMetrics": {
+      "feedbackCount": 1,
+      "negativeFeedbackCount": 1,
+      "highSeverityCount": 0,
+      "churnSignalCount": 0,
+      "revenueRepresented": 180000,
+      "accountsCount": 1,
+      "affectedSegments": [
+        "enterprise"
+      ],
+      "dominantSentiment": "negative"
+    },
+    "priorityScore": 52,
+    "priorityLevel": "Medium",
+    "priorityFactors": {
+      "frequencyScore": 8,
+      "severityScore": 12,
+      "segmentScore": 20,
+      "churnScore": 0,
+      "revenueScore": 12,
+      "rawMetrics": {
+        "feedbackCount": 1,
+        "highestSeverity": "medium",
+        "affectedSegments": [
+          "enterprise"
+        ],
+        "churnSignalCount": 0,
+        "totalRevenue": 180000
+      }
+    },
+    "createdAt": "2026-09-17T16:32:15.572Z"
+  },
+  {
+    "id": "ins_ai_insights_mu5qzqxg_xwjq",
+    "title": "AI summary efficiency in ai_insights",
+    "description": "1 feedback signal(s) from smb representing $24,000 contract ARR highlight product strength around ai summary efficiency. Dominant sentiment is positive with 0 high/critical severity items and 0 churn risk indicators.",
+    "productArea": "ai_insights",
+    "insightType": "Product Strength",
+    "supportingFeedbackIds": [
+      "fb_sample_003"
+    ],
+    "supportingMetrics": {
+      "feedbackCount": 1,
+      "negativeFeedbackCount": 0,
+      "highSeverityCount": 0,
+      "churnSignalCount": 0,
+      "revenueRepresented": 24000,
+      "accountsCount": 1,
+      "affectedSegments": [
+        "smb"
+      ],
+      "dominantSentiment": "positive"
+    },
+    "priorityScore": 25,
+    "priorityLevel": "Low",
+    "priorityFactors": {
+      "frequencyScore": 8,
+      "severityScore": 5,
+      "segmentScore": 8,
+      "churnScore": 0,
+      "revenueScore": 4,
+      "rawMetrics": {
+        "feedbackCount": 1,
+        "highestSeverity": "low",
+        "affectedSegments": [
+          "smb"
+        ],
+        "churnSignalCount": 0,
+        "totalRevenue": 24000
+      }
+    },
+    "createdAt": "2026-09-17T16:32:28.948Z"
+  }
+]
