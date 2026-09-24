@@ -17,36 +17,19 @@ The main differentiator of Project 2 is Retrieval-Augmented Generation.
 Instead of asking an LLM to answer questions from its general knowledge, InsightAI retrieves relevant customer feedback first.
 
 User Question
-      │
-      ▼
-"What are customers complaining about
-in the onboarding experience?"
-      │
-      ▼
+      ↓
 Query Embedding
-      │
-      ▼
+      ↓
 Vector Search
-      │
-      ▼
-Relevant Customer Feedback
-      │
-      ├── Feedback #1
-      ├── Feedback #2
-      ├── Feedback #3
-      ├── Feedback #4
-      └── Feedback #5
-      │
-      ▼
-Context Assembly
-      │
-      ▼
+      ↓
+Relevant Feedback
+      ↓
+Context
+      ↓
 LLM
-      │
-      ▼
-Evidence-Grounded Answer
-      │
-      ▼
+      ↓
+Answer
+      ↓
 Product Insight
 
 This allows the product manager to ask questions such as:
@@ -133,20 +116,15 @@ The system groups semantically related feedback into themes.
 For example:
 
 Customer Feedback
-        │
-        ▼
- ┌─────────────────────┐
- │ Theme Clustering    │
- └──────────┬──────────┘
-            │
-     ┌──────┼────────┐
-     ▼      ▼        ▼
-Onboarding  Billing  Performance
-   │          │          │
-   ▼          ▼          ▼
-Slow setup  Pricing   API latency
-Confusing   Issues    Slow dashboard
-UI
+        ↓
+  Theme Clustering
+        ↓
+ ┌──────┼─────────┐
+ ↓      ↓         ↓
+Onboarding Billing Performance
+   ↓       ↓         ↓
+Setup   Pricing   API Issues
+ UI      Issues   Latency
 
 The product team can then see:
 
@@ -231,18 +209,13 @@ Prioritization Framework
 
 Product opportunities can be evaluated using multiple signals:
 
-                    Product Opportunity
-                            │
-        ┌───────────────────┼───────────────────┐
-        ▼                   ▼                   ▼
-   Customer Impact      Revenue Impact      Severity
-        │                   │                   │
-        └───────────────────┼───────────────────┘
-                            ▼
-                     Priority Score
-                            │
-                            ▼
-                  Product Recommendation
+ Product Opportunity
+        ↓
+Impact + Revenue + Severity
+        ↓
+Priority Score
+        ↓
+Product Recommendation
 
 This helps product teams distinguish between:
 
@@ -359,3 +332,11 @@ Is it related to churn?
 What product opportunity does this create?
 
 What should the product team investigate next?
+
+<img width="1912" height="927" alt="1" src="https://github.com/user-attachments/assets/81b9ae58-dcf5-4dbd-984b-62c284f135b1" />
+<img width="1896" height="921" alt="7" src="https://github.com/user-attachments/assets/a2d68432-ccd4-4c64-b56d-8d136b364448" />
+<img width="1896" height="918" alt="6" src="https://github.com/user-attachments/assets/01830b48-cb5e-4be5-978d-d04ed24bf638" />
+<img width="1871" height="896" alt="5" src="https://github.com/user-attachments/assets/e6050de0-88a6-40b3-bb36-de9ff1260b95" />
+<img width="1872" height="914" alt="4" src="https://github.com/user-attachments/assets/d0973850-ce62-4b93-a79c-88c9f7a28dcf" />
+<img width="1891" height="912" alt="3" src="https://github.com/user-attachments/assets/a4316f92-9041-4ab3-9ec6-0ff9988258d9" />
+<img width="1907" height="911" alt="2" src="https://github.com/user-attachments/assets/8fa32309-8a68-48ad-b069-20e78c811f6a" />
