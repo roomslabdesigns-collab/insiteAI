@@ -9,75 +9,8 @@ Thousands of customer comments → structured evidence → product insights → 
 Instead of manually reading reviews, support tickets, surveys, and customer feedback, InsightAI uses LLMs, embeddings, semantic search, and RAG to understand the feedback and surface the issues that matter most.
 
 Product Workflow
-                    ┌──────────────────────┐
-                    │   Customer Feedback   │
-                    │                      │
-                    │ Reviews • Tickets    │
-                    │ Surveys • Interviews │
-                    │ Support Conversations│
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Data Ingestion       │
-                    │ & Preprocessing      │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Data Cleaning &      │
-                    │ Normalization        │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ LLM Enrichment       │
-                    │                      │
-                    │ Sentiment            │
-                    │ Themes               │
-                    │ Severity             │
-                    │ Product Area         │
-                    │ Churn Signals        │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Embedding Generation │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Vector Database      │
-                    │ / Semantic Search    │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ RAG Intelligence     │
-                    │ Engine               │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Evidence-Backed      │
-                    │ Product Insights     │
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Product Opportunities│
-                    └──────────┬───────────┘
-                               │
-                               ▼
-                    ┌──────────────────────┐
-                    │ Prioritization       │
-                    │ & Recommendations    │
-                    └──────────────────────┘
+Feedback → Cleaning → Enrichment → Vector Search → RAG → Insights → Recommendations                   
 
-
-
-
-                    Core RAG Architecture
 
 The main differentiator of Project 2 is Retrieval-Augmented Generation.
 
